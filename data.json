@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Item A",
+        "type": "Order",
+        "ready_for_processing": true,
+        "tasks": [1, 2, 3]
+    },
+    {
+        "id": 2,
+        "name": "Item B",
+        "type": "Invoice",
+        "ready_for_processing": false,
+        "tasks": [2, 4, 5]
+    },
+    {
+        "id": 3,
+        "name": "Item C",
+        "type": "Order",
+        "ready_for_processing": true,
+        "tasks": [1, 3, 5]
+    },
+    {
+        "id": 4,
+        "name": "Item D",
+        "type": "Shipment",
+        "ready_for_processing": true,
+        "tasks": [2, 4]
+    }
+]
